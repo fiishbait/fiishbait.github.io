@@ -1,0 +1,46 @@
+* {
+  color: hotpink;
+}
+h1 {
+  color: limegreen;
+}
+body {
+  background-color: bisque;
+  font-size: 1.1rem;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* h2 {
+color: red;
+} */
+h2,
+h3 {
+  color: green;
+}
+li {
+  color: purple;
+}
+body {
+  color: beige;
+}
+
+.blue-color {
+  color: blue;
+}
+#first-para {
+  color: chocolate;
+}
+/* p {
+ color: brown;
+ font-weight: bold
+} */
+/* to add comment CMD / */
+/* curly brackets {} */
+/* square brackets [] */
+/* parentheses <> */
+/* round brackets () */
+
+/* syntax - rules of writing */

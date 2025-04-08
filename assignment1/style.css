@@ -1,0 +1,275 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+header {
+  border-bottom: 1px solid;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 1rem;
+  text-align: center; /* title is in the middle */
+}
+
+.assignment-title {
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none; /*took out all the borders around it to make it cleaner*/
+  font-size: 40px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+/* container is to make a grid, so that te content are all aligned */
+
+.name {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+
+h1 {
+  /* gives borders to all the numbers, so I would not have to write the code over and over again*/
+  border-style: solid;
+  border-width: thin;
+}
+
+.q1 {
+  width: 450px; /* to make sure the text was stationary*/
+  margin: 10px;
+  margin-right: 50px;
+  padding-top: 35px;
+  padding: auto;
+  padding-right: 100px;
+  text-align: left; /* to move the text to the left */
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.home {
+  position: relative; /*prevents the image from moving*/
+  bottom: 350px; /* to align with the text */
+  left: 800px;
+  float: right;
+}
+
+.q2 {
+  width: 450px;
+  border-top: 1px none;
+  margin-top: 10px;
+  margin-left: 500px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 300px;
+  text-align: right;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style-position: inside; /* Bullet points were in the far left, so I moved it closer to the text */
+}
+
+.q3 {
+  width: 450px;
+  margin: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 200px;
+  text-align: left;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.most {
+  position: relative;
+  bottom: 285px; /* to align with the text */
+  left: 800px;
+  float: right;
+}
+
+.q4 {
+  width: 450px;
+  border-top: 1px none;
+  margin-top: 10px;
+  margin-left: 500px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 300px;
+  text-align: right;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.four-img {
+  position: relative;
+  bottom: 300px; /* to align with the text */
+  right: 800px;
+  float: left;
+}
+
+.q5 {
+  width: 450px;
+  margin: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 200px;
+  text-align: left;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.contact {
+  position: relative;
+  bottom: 300px; /* to align with the text */
+  left: 500px; /* had to move the image closer as it was in potrait rather than landscape */
+  float: right;
+}
+
+.q6 {
+  width: 450px;
+  border-top: 1px none;
+  margin-top: 10px;
+  margin-left: 500px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 300px;
+  text-align: right;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.gallery {
+  position: relative;
+  bottom: 310px; /* to align with the text */
+  right: 800px;
+  float: left;
+}
+
+.q7 {
+  width: 450px;
+  margin: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 200px;
+  text-align: left;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.project {
+  position: relative;
+  bottom: 410px; /* to align with the text */
+  left: 800px;
+  float: right;
+}
+
+.q8 {
+  width: 450px;
+  border-top: 1px none;
+  margin-top: 10px;
+  margin-left: 500px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 300px;
+  text-align: right;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.q9 {
+  width: 450px;
+  margin: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 200px;
+  text-align: left;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.ref {
+  position: relative;
+  bottom: 230px; /* to align with the text */
+  left: 800px;
+  float: right;
+}
+
+.q10 {
+  width: 450px;
+  border-top: 1px none;
+  margin-top: 10px;
+  margin-left: 500px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 300px;
+  text-align: right;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.det {
+  position: relative;
+  bottom: 370px; /* to align with the text, had to move it up higher as the picture was small*/
+  right: 800px;
+  float: left;
+}
+
+.q11 {
+  width: 450px;
+  margin: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 200px;
+  text-align: left;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.comm {
+  position: relative;
+  bottom: 375px; /* to align with the text, had to move it up higher as it was a small image */
+  left: 800px;
+  float: right;
+}
+
+.q12 {
+  width: 450px;
+  border-top: 1px none;
+  margin-top: 10px;
+  margin-left: 500px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 300px;
+  text-align: right;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.q13 {
+  width: 450px;
+  margin: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-right: 200px;
+  text-align: left;
+  border-bottom: 1px solid;
+  font-size: 1.3rem;
+}
+
+.open {
+  position: relative;
+  bottom: 460px; /* to align with the text, had to move it up higher as it was a small image */
+  left: 800px;
+  float: right;
+}

@@ -1,0 +1,49 @@
+body {
+  font-size: 1rem;
+  /* font-size: 16px; */
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+p {
+  border: 1px solid crimson;
+  border-bottom: 3px dashed green;
+  width: 400px;
+  height: 300px;
+  min-height: 100px;
+  margin-left: 30px;
+  margin: 0 auto;
+  /*for horizontal centering */
+  /*padding-left: 20px;
+    padding-bottom: 30px;*/
+  /* T R B L for the one under */
+  /*padding: 20px 30px 20px 30px;*/
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.vcenter {
+  line-height: 260px; /* how to center text in a box which should be the same as the height of the box*/
+  /* height 300 padding 20 300-20-20*/
+}
+
+span {
+  color: blueviolet;
+  /*display: block;*/
+  /*display: none; for hovering with mouse making things appear and disappear*/
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
