@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="script.js" defer></script>
+
+    <title>Assignment 2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+
+  </head>
+<!-- The background colour for the page is a yellow, I had made it this colour as it wasn't oversaturated, so it avoids any distractions for the user. -->
+<!-- A lot of the colours I utilised for theis website are not very bright, as it can be highly distracting or could strain the user's eyes. -->
+<body style="background-color: #FFE9B4;">
+
+   <!-- Tomato Background-->
+    <!-- I had made a tomato as my background as it is the symbol for the pomodoro method, which aesthetially matches with the theme of the website as a timer for people using the pomodoro study method. -->
+   <div class="bg-container">
+    <img src="tomato 2.0.png" alt="">
+  </div>
+  
+    <!-- Media Player buttons-->
+     <!-- I have added a play and pause button to this page so users are able to start the timer, as well as a pause button, mainly for the purpose of whether the user has any unavoidable interferences while they study. They will be able to pause the timer and return to the time they were on while they were sudying. -->
+      <div>
+        <button id="play-button" class= "Play timer and sound">
+         <img src="play button.png" alt="">
+        </button>
+        <button id="pause-button" class="Pause timer and sound">
+          <img src="pause button.png" alt="">
+        </button>
+      </div>
+
+    <!-- Reset button -->
+     <!-- The reset button is used for when the user returns from their break, they are able to start the 25 minute timer and continue their studying. -->
+    <button id="reset-button" class="reset-button">
+      <img src="reset.png" alt="">
+    </button>
+
+    <!-- Focus Button-->
+     <!-- The focus button allows the player to toggle page, which lowers the brightness of the screen whch allows them to focus even more as they study, if they think the screen is too bright. -->
+     <div class="brightness-toggle"></div>
+     <button id="focus-button" class="focus-button">
+      <img src="focus.png" alt="">
+     </button>
+    </div>
+
+    <!-- Timer Screen -->
+     <!-- The timer screen displays the 25 minute timer, the colours of the box is a light red which emulates the inside of the of a tomato when cut open. -->
+     <!-- The digits are also a pale yellow-orange to make it look like the seeds of the tomato-->
+     <div id="timer-screen"></div>
+
+     <div class="main-container"></div>
+     <div class="timer-container">
+      <div id="minutes-tens" class="digit pink">0</div>
+      <div id="minutes-ones" class="digit pink">0</div>
+      <div id="seconds-tens" class="digit pink">0</div>
+      <div id="seconds-ones" class="digit pink">0</div>
+     </div>
+
+     <!-- Study Music -->
+      <!-- The study music of is a loop of lofi ambient music for studying. Instead of using the music provided for this assignment, I thought the lofi beats suited the overall aesthetic and design of the website. -->
+     <audio id="bg-music" src="lofi-ambiental-music-for-study-141222.mp3" loop></audio>
+
+     <footer>
+      <a href="references.html">References</a>
+     </footer>
+
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+:root {
+  --bg-color: blue;
+  --my-padding: 12px;
+}
+
+audio,
+video {
+  display: block;
+  margin-bottom: 20px;
+}
+
+video {
+  width: 600px;
+  height: 400px;
+}
+
+button {
+  padding: var(--my-padding);
+  font-size: 1.1rem;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: var(--bg-color);
+}
+
+button:hover {
+  scale: 0.9;
+}

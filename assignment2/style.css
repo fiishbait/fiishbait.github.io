@@ -1,0 +1,147 @@
+body {
+  margin-top: -5px;
+  padding: 0;
+}
+
+.delius-swash-caps-regular {
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cute-font-regular {
+  font-family: "Cute Font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.div {
+  margin: auto;
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-container {
+  display: inline-block;
+  bottom: 0;
+  position: relative;
+  top: 10%;
+  left: 23%;
+}
+
+.bg-container img {
+  /* The tomato in the background */
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#play-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding-left: 100px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 290px;
+  z-index: 10;
+}
+
+#pause-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding-left: 100px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 430px;
+  z-index: 10;
+}
+
+#reset-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding-left: 1070px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 430px;
+  z-index: 5;
+}
+
+#focus-button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  padding-left: 1070px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 290px;
+  z-index: 5;
+}
+
+/* Transitions when hover */
+#play-button:hover img,
+#pause-button:hover img,
+#reset-button:hover img,
+#focus-button:hover img {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+.timer-container {
+  background: #ff8b6a;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 265px;
+  position: absolute;
+  top: 380px;
+  left: 491px;
+}
+
+.digit {
+  background: #f8f8f8;
+  border-radius: 4px;
+  width: 60px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(244, 214, 155);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Cute Font", sans-serif;
+}
+
+.digit.pink {
+  background: #ffa39a;
+}
+
+footer {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  left: 48%;
+  top: 120%;
+}
