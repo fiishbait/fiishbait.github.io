@@ -1,17 +1,29 @@
-const abcButton = document.querySelector("#abc-button");
-console.log(abcButton);
+const hoverClickButton = document.querySelector("#hoverclick-button");
+console.log(hoverClickButton);
+hoverClickButton.addEventListener("click", function () {
+  location.href = "flip.html";
+});
 
-abcButton.addEventListener("click", gotoABC);
+const dragDropButton = document.querySelector("#dragdrop-button");
+console.log(dragDropButton);
+dragDropButton.addEventListener("click", function () {
+  location.href = "dragdrop.html";
+});
 
-function gotoABC() {
-  window.location.href = "https://www.abc.net.au/";
-}
+const multiDragDropButton = document.querySelector("#multidragdrop-button");
+console.log(multiDragDropButton);
+multiDragDropButton.addEventListener("click", function () {
+  location.href = "multidragdrop.html";
+});
 
-const footerButton = document.querySelector("#footer-button");
-console.log(footerButton);
+const findQueenButton = document.querySelector("#findqueen-button");
+console.log(findQueenButton);
+findQueenButton.addEventListener("click", function () {
+  location.href = "findqueen.html";
+});
 
-footerButton.addEventListener("click", gotoFooter);
-
-function gotoFooter() {
-  window.location.href = "#bottom";
-}
+const gameButton = document.querySelector("#completegame-button");
+console.log(gameButton);
+gameButton.addEventListener("click", function () {
+  location.href = "game.html";
+});
