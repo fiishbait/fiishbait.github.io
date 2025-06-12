@@ -3,7 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Overlay Grid</title>
   </head>
-  <body></body>
+
+  <body>
+    <div class="overlay-container">
+      <!-- Background image -->
+      <img src="bg.jpg" class="bg-img" alt="Background" />
+   
+       <img id="eatButton" src="eat btn.png"/>
+
+      <img src="cat.png" id="mainCat" class="cat" alt="Cat" />
+      <img src="bowl.png" class="bowl" id="bowl" alt="Bowl" />
+
+      <div class="happy-cat">
+      <img src="happy cat.png" id="happyCat" alt=""/>
+      <img src="heart.gif" alt="">
+      </div>
+
+      <div class="angry-cat">
+      <img src="angry cat.png" id="angryCat" alt="">
+      <img src="annoyed.gif" alt="">
+      </div>
+
+      <!-- Draggable food items -->
+      <div class="grid-wrapper">
+        <img
+          src="catfood.png"
+          id="catfood"
+          class="draggable"
+          draggable="true"
+          data-bowl="cat food bowl.png"
+          data-reaction="happy"
+          alt=""
+        />
+
+        <img
+          src="fish.png"
+          id="fish"
+          class="draggable"
+          draggable="true"
+          data-bowl="fish bowl.png"
+          data-reaction="happy"
+          alt=""
+        />
+
+        <img
+          src="kibble.png"
+          id="kibble"
+          class="draggable"
+          draggable="true"
+          data-bowl="kibble bowl.png"
+          data-reaction="happy"
+          alt=""
+        />
+
+        <img
+          src="steak.png"
+          id="steak"
+          class="draggable"
+          draggable="true"
+          data-bowl="steak bowl.png"
+          data-reaction="happy"
+          alt=""
+        />
+
+        <img
+          src="broc.png"
+          id="broc"
+          class="draggable"
+          draggable="true"
+          data-bowl="brocolli bowl.png"
+          data-reaction="angry"
+          alt=""
+        />
+        
+        <img
+          src="chicken.png"
+          id="chicken"
+          class="draggable"
+          draggable="true"
+          data-bowl="chicken bowl.png"
+          data-reaction="happy"
+          alt=""
+        />
+
+        <img
+          src="apple.png"
+          id="apple"
+          class="draggable"
+          draggable="true"
+          data-bowl="apple bowl.png"
+          data-reaction="angry"
+          alt=""
+        />
+      </div>
+
+    
+  </body>
 </html>
