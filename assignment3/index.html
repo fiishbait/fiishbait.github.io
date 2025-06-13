@@ -9,26 +9,32 @@
   </head>
 
   <body>
-    <div class="overlay-container">
+
+    <div class="overlay-container"> <!-- To keep them all together, and have the images stack on top of each other-->
+
       <!-- Background image -->
       <img src="bg.jpg" class="bg-img" alt="Background" />
-   
-       <img id="eatButton" src="eat btn.png"/>
 
+      <!-- Eat button -->
+       <img id="eatButton" src="eat btn.png"/>
+      
+       <!-- The constant images showing up -->
       <img src="cat.png" id="mainCat" class="cat" alt="Cat" />
       <img src="bowl.png" class="bowl" id="bowl" alt="Bowl" />
+      <img src="empty bowl.png" class="empty-bowl" id="emptyBowl" alt="">
 
+      <!-- Cat's reactions, I couldn't figure out how to add the gifs as it kept moving the other elemnts around -->
       <div class="happy-cat">
       <img src="happy cat.png" id="happyCat" alt=""/>
-      <img src="heart.gif" alt="">
+      <img src="heart.gif" id="heartGIF" alt="">
       </div>
 
       <div class="angry-cat">
       <img src="angry cat.png" id="angryCat" alt="">
-      <img src="annoyed.gif" alt="">
+      <img src="annoyed.gif" id="annoyedGIF" alt="">
       </div>
 
-      <!-- Draggable food items -->
+      <!-- Draggable food items, data-bowl is to correspond with the image and display the food in the bowl, data-reaction is to show how the cat will react to each foods -->
       <div class="grid-wrapper">
         <img
           src="catfood.png"
@@ -100,7 +106,7 @@
           alt=""
         />
       </div>
-
+ <!-- All illustrations done by me -->
     
   </body>
 </html>
